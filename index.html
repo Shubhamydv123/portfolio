@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shubham Yadav | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    .project-card {
+      text-decoration: none;
+      color: inherit;
+    }
+    .project-card:hover {
+      background-color: #f2f2f2;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 10px 0 0;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
 
@@ -27,7 +51,7 @@
   <!-- Hero Section -->
   <section class="hero" id="about">
     <div class="hero-content">
-      <img src="images/photo.jpg" alt="Shubham Photo" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;">
+      <img src="photo.jpg" alt="Shubham Photo" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;">
       <h1>Hello, I'm Shubham</h1>
       <p>A Web Developer passionate about building modern web applications.</p>
     </div>
@@ -51,26 +75,32 @@
   <section class="projects" id="projects">
     <h2>Projects</h2>
     <div class="project-grid">
-      <div class="project-card">
+
+      <a href="https://shubhamydv123.github.io/portfolio" target="_blank" class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This is my personal portfolio site built using HTML, CSS, and JavaScript.</p>
+      </a>
+
+      <a href="https://shubhamydv123.github.io/FilterAble-Gallary" target="_blank" class="project-card">
+        <h3>Image Filterable Gallery</h3>
+        <p>A filterable image gallery using HTML, CSS, and JS with smooth transitions.</p>
+      </a>
+
+      <a href="https://shubhamydv123.github.io/calculator" target="_blank" class="project-card">
+        <h3>Calculator App</h3>
+        <p>A colorful calculator that handles basic math operations.</p>
+      </a>
+
+      <a href="https://github.com/shubhamydv123/attendance-tracker" target="_blank" class="project-card">
         <h3>Student Attendance Tracker</h3>
-        <p>A web app for managing student attendance with charts and reports.</p>
-      </div>
+        <p>A full-stack Flask app for managing subject-wise attendance with reports.</p>
+      </a>
+
       <div class="project-card">
         <h3>FocusTrack</h3>
-        <p>Track your daily study hours with goals, streaks and subject-wise stats.</p>
+        <p>Web app to track subject-wise study time, goals, streaks, and productivity.</p>
       </div>
-      <div class="project-card">
-        <h3>Image Filterable Gallery</h3>
-        <p>Built an interactive image gallery with category-based filters using HTML, CSS, and JavaScript.</p>
-      </div>
-      <div class="project-card">
-        <h3>Calculator App</h3>
-        <p>Designed a colorful and responsive calculator using HTML, CSS, and JavaScript.</p>
-      </div>
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>This very website! Created to showcase my skills, resume, and projects in a stylish layout.</p>
-      </div>
+
     </div>
   </section>
 
@@ -78,14 +108,16 @@
   <section class="resume" id="resume">
     <h2>Resume</h2>
     <p>You can view or download my professional resume below:</p>
-    <a href="resume/complete resume shubham.pdf" download class="btn">📄 Download Resume</a>
+    <a href="Shubham_Yadav_Resume_2025_Styled_Pagebreak.pdf" target="_blank" class="btn">👁️ View Resume</a>
+    <a href="Shubham_Yadav_Resume_2025_Styled_Pagebreak.pdf" download class="btn">📄 Download Resume</a>
   </section>
 
   <!-- Contact Section -->
   <section class="contact" id="contact">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:sy8122403@gmail.com">sy8122403@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/shubham~yadav" target="_blank">@shubham~yadav</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/shubham-yadav-922b52253" target="_blank">linkedin.com/in/shubham-yadav</a></p>
+    <p>GitHub: <a href="https://github.com/shubhamydv123" target="_blank">github.com/shubhamydv123</a></p>
   </section>
 
   <!-- Footer -->
