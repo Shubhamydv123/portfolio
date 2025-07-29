@@ -26,7 +26,7 @@ It showcases my skills, projects, resume, and contact information in a clean, re
 ---
 
 ## 📷 Preview  
-![Portfolio Screenshot](image/photo.jpg)
+![Portfolio Screenshot](photo.jpg)
 
 ---
 
